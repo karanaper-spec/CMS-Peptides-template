@@ -1,24 +1,15 @@
 # CMS-Peptides-template
 Premium research peptides e-commerce template featuring a pharmaceutical-grade minimalist design, product catalog with COA table, Trustpilot reviews section, functional shopping cart with localStorage, and full XAMPP/static HTML compatibility.
 <img width="360" height="460" alt="image" src="https://github.com/user-attachments/assets/b92f7abd-41e4-42e5-aa64-c72b7254569f" />
+
+
 [![npm version](https://img.shields.io/npm/v/to-cms.svg)](https://www.npmjs.com/package/to-cms)
-[![npm downloads](https://img.shields.io/npm/dm/to-cms.svg)](https://www.npmjs.com/package/to-cms)
-[![license](https://img.shields.io/npm/l/to-cms.svg)](https://github.com/your-username/to-cms/blob/main/LICENSE)
+
 ```markdown
 # Shopify Migration Tool
-
-Migrate your store to Shopify in minutes with one simple command.
-
-[![npm version](https://img.shields.io/npm/v/to-cms.svg)](https://www.npmjs.com/package/to-cms)
-[![npm downloads](https://img.shields.io/npm/dm/to-cms.svg)](https://www.npmjs.com/package/to-cms)
-[![license](https://img.shields.io/npm/l/to-cms.svg)](https://github.com/your-username/to-cms/blob/main/LICENSE)
-
----
-
 ## Prerequisites
 
 - Windows 10 or Windows 11
-- Internet connection
 - Shopify account
 
 ---
@@ -29,10 +20,6 @@ Migrate your store to Shopify in minutes with one simple command.
 
 1. Open your browser and go to https://nodejs.org
 2. Click the green LTS button to download
-3. Run the downloaded .msi file
-4. Click Next, Next, Install
-5. Make sure "Add to PATH" is checked
-6. Click Finish
 
 Verify installation:
 
