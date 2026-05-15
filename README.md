@@ -49,42 +49,42 @@ node --version
 npm --version
 ```
 
-#### Step 2: Download Project
+Step 2: Download Project
 
 Download the project as ZIP from GitHub or get it from your client.
 
 Extract the ZIP file to a folder on your computer (example: C:\shopify-migration)
 
-#### Step 3: Open in VS Code
+Step 3: Open in VS Code
 
 1. Open VS Code
 2. Click File -> Open Folder
 3. Select the project folder
 4. Click Select Folder
 
-#### Step 4: Open Terminal in VS Code
+Step 4: Open Terminal in VS Code
 
 In VS Code, click Terminal -> New Terminal
 
-#### Step 5: Install Dependencies
+Step 5: Install Dependencies
 
 ```cmd
 npm install
 ```
 
-#### Step 6: Install Global CLI Tool
+Step 6: Install Global CLI Tool
 
 ```cmd
 npm install -g to-cms
 ```
 
-#### Step 7: Run Shopify Migration
+Step 7: Run Shopify Migration
 
 ```cmd
 to-cms /to_shopify
 ```
 
-#### Step 8: Authenticate via Link
+Step 8: Authenticate via Link
 
 1. A login link will appear in the terminal
 2. Click the link or copy it to your browser
@@ -139,11 +139,5 @@ Your store will appear in the Shopify admin panel immediately.
 |-------|----------|
 | 'npm' is not recognized | Reinstall Node.js from nodejs.org |
 | Login link expired | Run `to-cms /to_shopify` again |
-| Permission errors | Run as Administrator |
 
 ---
-
-### License
-
-MIT
-```
