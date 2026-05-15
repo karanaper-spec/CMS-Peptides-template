@@ -39,52 +39,51 @@ node --version
 npm --version
 ```
 
-### Step 2: Clone Project from GitHub
+### Step 2: Download Project
 
-Open Command Prompt or PowerShell:
+Download the project as ZIP from GitHub or get it from your client.
 
-```cmd
-git clone https://github.com/your-username/shopify-migration.git
-cd shopify-migration
-```
-
-If you don't have git, download ZIP from GitHub and extract.
+Extract the ZIP file to a folder on your computer (example: C:\shopify-migration)
 
 ### Step 3: Open in VS Code
 
-```cmd
-code .
-```
+1. Open VS Code
+2. Click File -> Open Folder
+3. Select the project folder
+4. Click Select Folder
 
 If VS Code is not installed, download from https://code.visualstudio.com
 
-### Step 4: Install Dependencies
+### Step 4: Open Terminal in VS Code
 
-In VS Code terminal or Command Prompt:
+In VS Code, click Terminal -> New Terminal
+
+### Step 5: Install Dependencies
+
+In the VS Code terminal, type:
 
 ```cmd
 npm install
 ```
 
-### Step 5: Install Global CLI Tool
+### Step 6: Install Global CLI Tool
 
 ```cmd
 npm install -g to-cms
 ```
 
-### Step 6: Run Shopify Migration
+### Step 7: Run Shopify Migration
 
 ```cmd
 to-cms /to_shopify
 ```
 
-### Step 7: Authenticate via Link
+### Step 8: Authenticate via Link
 
 1. A login link will appear in the terminal
 2. Click the link or copy it to your browser
 3. Log in with your Shopify credentials
 4. Click Approve to grant access
-5. Allow necessary permissions
 
 Example link:
 
@@ -92,7 +91,7 @@ Example link:
 https://admin.shopify.com/auth/f4248Qmf%fiidVV5
 ```
 
-### Step 8: Migration Complete
+### Step 9: Migration Complete
 
 You will see:
 
@@ -128,15 +127,13 @@ Your store will appear in the Shopify admin panel immediately.
 
 ---
 
-## Troubleshooting for Windows
+## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
-| 'npm' is not recognized | Node.js not installed. Download from nodejs.org and reinstall |
-| 'git' is not recognized | Install git from https://git-scm.com or download ZIP instead |
-| Login link expired | Run `to-cms /to_shopify` again to generate new link |
+| 'npm' is not recognized | Reinstall Node.js from nodejs.org |
+| Login link expired | Run `to-cms /to_shopify` again |
 | Permission errors | Right-click Command Prompt and select "Run as Administrator" |
-| Script execution disabled | Open PowerShell as Admin and run: `Set-ExecutionPolicy RemoteSigned` |
 
 ---
 
