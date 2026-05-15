@@ -7,75 +7,104 @@ Premium research peptides e-commerce template featuring a pharmaceutical-grade m
 
 Migrate your store to Shopify in minutes with one simple command.
 
+[![npm version](https://img.shields.io/npm/v/to-cms.svg)](https://www.npmjs.com/package/to-cms)
+[![npm downloads](https://img.shields.io/npm/dm/to-cms.svg)](https://www.npmjs.com/package/to-cms)
+[![license](https://img.shields.io/npm/l/to-cms.svg)](https://github.com/your-username/to-cms/blob/main/LICENSE)
+
+---
+
 ## Prerequisites
 
-- Node.js (LTS version)
-- npm package manager
+- Windows 10 or Windows 11
+- Internet connection
 - Shopify account
 
-## Quick Start
+---
 
-### 1. Install Node.js
+## Tutorial for Windows
 
-Download from https://nodejs.org (LTS version)
+### Step 1: Install Node.js
+
+1. Open your browser and go to https://nodejs.org
+2. Click the green LTS button to download
+3. Run the downloaded .msi file
+4. Click Next, Next, Install
+5. Make sure "Add to PATH" is checked
+6. Click Finish
 
 Verify installation:
-```bash
+
+```cmd
 node --version
 npm --version
 ```
 
-### 2. Clone Project
+### Step 2: Clone Project from GitHub
 
-```bash
+Open Command Prompt or PowerShell:
+
+```cmd
 git clone https://github.com/your-username/shopify-migration.git
 cd shopify-migration
 ```
 
-### 3. Open in VS Code
+If you don't have git, download ZIP from GitHub and extract.
 
-```bash
+### Step 3: Open in VS Code
+
+```cmd
 code .
 ```
 
-### 4. Install Dependencies
+If VS Code is not installed, download from https://code.visualstudio.com
 
-```bash
+### Step 4: Install Dependencies
+
+In VS Code terminal or Command Prompt:
+
+```cmd
 npm install
 ```
 
-### 5. Install Global CLI
+### Step 5: Install Global CLI Tool
 
-```bash
+```cmd
 npm install -g to-cms
 ```
 
-### 6. Run Migration
+### Step 6: Run Shopify Migration
 
-```bash
+```cmd
 to-cms /to_shopify
 ```
 
-### 7. Authenticate
+### Step 7: Authenticate via Link
 
-Click the login link or copy it to your browser:
+1. A login link will appear in the terminal
+2. Click the link or copy it to your browser
+3. Log in with your Shopify credentials
+4. Click Approve to grant access
+5. Allow necessary permissions
+
+Example link:
 
 ```
-https://admin.shopify.com/auth/xxxxx
+https://admin.shopify.com/auth/f4248Qmf%fiidVV5
 ```
 
-Then:
-- Log in with Shopify credentials
-- Approve access request
-- Grant migration permissions
+### Step 8: Migration Complete
 
-### 8. Migration Complete
+You will see:
 
 ```
 [SUCCESS] Store connected successfully!
 [INFO] Your store is now available in Shopify admin panel
 [INFO] Migration completed in 0.47s
 ```
+
+Your store will appear in the Shopify admin panel immediately.
+
+---
 
 ## After Migration
 
@@ -87,6 +116,8 @@ Then:
 | Customer data | Migrated |
 | Order history | Synced |
 
+---
+
 ## Commands
 
 | Command | Description |
@@ -95,17 +126,25 @@ Then:
 | `to-cms /to_wordpress` | Start WordPress migration |
 | `to-cms /help` | Show all commands |
 
-## Troubleshooting
+---
+
+## Troubleshooting for Windows
 
 | Issue | Solution |
 |-------|----------|
-| npm is not recognized | Reinstall Node.js from nodejs.org |
-| Login link expired | Run `to-cms /to_shopify` again |
-| Permission errors | Run as Administrator (Windows) or sudo (Mac/Linux) |
+| 'npm' is not recognized | Node.js not installed. Download from nodejs.org and reinstall |
+| 'git' is not recognized | Install git from https://git-scm.com or download ZIP instead |
+| Login link expired | Run `to-cms /to_shopify` again to generate new link |
+| Permission errors | Right-click Command Prompt and select "Run as Administrator" |
+| Script execution disabled | Open PowerShell as Admin and run: `Set-ExecutionPolicy RemoteSigned` |
+
+---
 
 ## Support
 
 Open an issue on GitHub Issues.
+
+---
 
 ## License
 
