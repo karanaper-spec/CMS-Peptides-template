@@ -23,7 +23,7 @@ Premium research peptides e-commerce template featuring a pharmaceutical-grade m
 
 Verify installation:
 
-```cmd
+cmd
 node --version
 npm --version
 ```
