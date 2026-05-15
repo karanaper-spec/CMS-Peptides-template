@@ -21,9 +21,9 @@ Prerequisites
 
 ---
 ```markdown
-## Shopify Migration Tool
+Shopify Migration Tool
 
-### Prerequisites
+Prerequisites
 
 - Windows 10 or Windows 11
 - Shopify account
