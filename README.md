@@ -1,3 +1,4 @@
 # CMS-Peptides-template
 Premium research peptides e-commerce template featuring a pharmaceutical-grade minimalist design, product catalog with COA table, Trustpilot reviews section, functional shopping cart with localStorage, and full XAMPP/static HTML compatibility.
-<img width="1646" height="4776" alt="localhost" src="https://github.com/user-attachments/assets/d2728d66-4870-48e4-a861-a50ef53ea907" />
+<img width="622" height="914" alt="image" src="https://github.com/user-attachments/assets/b92f7abd-41e4-42e5-aa64-c72b7254569f" />
+
