@@ -31,16 +31,13 @@ Prerequisites
 
 ---
 
-### Tutorial for Windows
 
-#### Step 1: Install Node.js
+
+Step 1: Install Node.js
 
 1. Go to https://nodejs.org
 2. Click the green LTS button to download
 3. Run the downloaded .msi file
-4. Click Next, Next, Install
-5. Make sure "Add to PATH" is checked
-6. Click Finish
 
 Verify installation:
 
