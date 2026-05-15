@@ -12,9 +12,9 @@ Premium research peptides e-commerce template featuring a pharmaceutical-grade m
 
 ---
 
-## Shopify Migration Tool
+Shopify Migration Tool
 
-### Prerequisites
+Prerequisites
 
 - Windows 10 or Windows 11  
 - Shopify account  
